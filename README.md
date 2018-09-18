@@ -1,13 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+## Pluralsight Rspec TDD tutorial
+### https://app.pluralsight.com/player?course=test-driven-rails-rspec-capybara-cucumber&author=rem-zolotykh&name=test-driven-rails-rspec-capybara-cucumber-m3&clip=1&mode=live
 
 * Ruby version
+2.5.1
 
-* System dependencies
+* Gems: 'bootstrap-sass'
+
+** Test gems: 'capybara'
+
+** Development & Test gems: 'rspec-rails', 'factory-bot', 'spring', 'spring-commands-rspec'
 
 * Configuration
 
@@ -16,9 +19,7 @@ Things you may want to cover:
 * Database initialization
 
 * How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
+bin/rspec
 
 * Deployment instructions
-
-* ...
+rails s
